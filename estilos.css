@@ -10,13 +10,16 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+a:hover {
+    text-decoration: underline;
+}
 body {
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
     width: 100vw;
-    height: 5vh;
+    height: 10vh;
 }
 header nav {
     height: auto;
@@ -24,8 +27,8 @@ header nav {
     justify-content: flex-end;
 }
 header nav .nav-right-section {
-    width: 250px;
-    height: 5vh;
+    width: 200px;
+    height: 10vh;
     display: flex;
     list-style: none;
     justify-content: center;
@@ -46,15 +49,93 @@ nav .nav-right-section .menu-icon {
 .nav-right-section img {
     border-radius: 50%;
     margin-left: 10px;
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
 }
 main {
     margin-top: 150px;
     text-align: center;
 }
 main .main-logo {
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-logo img {
+    width: 272px;
+    height: 92;
+}
+main .main-input {
     width: 530px;
     margin: 0 auto;
     margin-bottom: 35px;
+}
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px #dfe1e5 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
+}
+main .micro-item {
+    background-image: url('https://cutt.ly/0hn6lQy');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px; 
+}
+.main-buttons {
+    display: flex;
+    justify-content: center;
+}
+.main-buttons button {
+    margin: 11px 4px;
+    padding: 0 16px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    height: 35px;
+    color: #3c4043;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.main-buttons button:hover {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
+}
+.search-icon {
+    margin-top: 4px;
+    opacity: 0.4;
+}
+footer {
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,0.54);
+    height: 60px;
+    margin-top: 175px;
+}
+footer section {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+footer .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dadada;
+}
+footer .bottom ul {
+    list-style: none;
+    display: flex;
+}
+footer section a {
+    margin: 0 20px;
 }
