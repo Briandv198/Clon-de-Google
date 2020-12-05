@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+body {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100vw;
+    height: 5vh;
+}
+header nav {
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section {
+    width: 250px;
+    height: 5vh;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: black;
+}
+nav .nav-right-section .menu-icon {
+    background-image: url('https://cutt.ly/Ihn9RQK');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+.nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
